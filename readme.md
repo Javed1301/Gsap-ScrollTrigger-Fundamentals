@@ -70,5 +70,5 @@ This repository contains a collection of small frontend projects built using **G
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/gsap-animations.git
-   cd gsap-animations
+   git clone https://github.com/Javed1301/Gsap-ScrollTrigger-Fundamentals.git
+   cd Gsap-ScrollTrigger-Fundamentals
