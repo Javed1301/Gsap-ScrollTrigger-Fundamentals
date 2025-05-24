@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="string">
+      <!-- SVG element begins here -->
+      <svg width="1400" height="400" xmlns="http://www.w3.org/2000/svg">
+    
+        <!-- 
+          <path> is used to define a curved or straight shape via coordinates.
+          This path draws a quadratic Bézier curve.
+          
+          - M 10 80
+            -> "M" stands for "move to".
+            -> It moves the pen to the point (10, 80) without drawing anything.
+    
+          - Q 95 10 180 80
+            -> "Q" stands for "quadratic Bézier curve".
+            -> First two numbers (95, 10) are the control point — it determines the curve shape.
+            -> Last two numbers (180, 80) are the end point of the curve.
+            -> So, the curve starts from (10, 80), bends toward (95, 10), and ends at (180, 80).
+    
+          - stroke="black"
+            -> Sets the line (curve) color to black.
+    
+          - fill="transparent"
+            -> Makes sure the inside of the path is not filled — only the stroke is visible.
+        -->
+        <path d="M 100 200 Q 700 200 1300 200" stroke="white" fill="transparent" />
+      </svg>
+    </div>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/gsap.min.js" 
+    integrity="sha512-f6bQMg6nkSRw/xfHw5BCbISe/dJjXrVGfz9BSDwhZtiErHwk7ifbmBEtF9vFW8UNIQPhV2uEFVyI/UHob9r7Cw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

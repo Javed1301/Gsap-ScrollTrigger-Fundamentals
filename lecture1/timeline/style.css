@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#fff;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+}
+
+#box1{
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+}
+#box2{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(20, 167, 220);
+}
+#box3{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(20, 220, 63);
+}

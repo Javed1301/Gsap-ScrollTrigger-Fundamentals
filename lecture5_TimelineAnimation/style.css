@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+   height:100%;
+   width:100%;
+   background-color: white;
+   color:black; 
+}
+
+body{
+    overflow-x: hidden;
+    /* this is mainly used when there is an overflow in x axis , and because of that
+    a scroller comes into picture */
+}
+
+#main{
+    height: 100%;
+    width:100%;
+    background-color: lightblue;
+    background-size: cover;
+    background-image: url(https://images.pexels.com/photos/531767/pexels-photo-531767.jpeg);
+    background-position: center;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:40px 50px;
+    color:white;
+    font-size: 30px;
+    font-weight: 800;
+    
+}
+
+#nav h2{
+    transition: transform 0.5s ease;
+}
+#nav i{
+    font-size: 30px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+
+}
+
+#nav h2:hover{
+    transform: scaleY(1.5);
+    color:rgb(18, 9, 104)
+}
+
+#nav i:hover{
+    transform:scale(1.2);
+    color:rgb(18, 9, 104)
+}
+#full{
+    height:100%;
+    width: 25%;
+    position:absolute;
+   background-color: rgba(255, 255, 255, 0.634);  /*keep the background around 50%  whenever you are using backDrop filter*/
+    top:0;
+    right:-25%;
+    backdrop-filter: blur(10px) ;
+    padding:150px 60px;
+}
+
+#full h4{
+     font-size: 50px;
+     font-weight: 500;
+     margin-bottom: 10px;
+}
+
+#full i{
+    position: absolute;
+    top:5%;
+    right:10%;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    font-weight: 800;
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+#full i:hover{
+    transform:scale(1.2);
+
+    background-color: black;
+    color: white;
+    
+}

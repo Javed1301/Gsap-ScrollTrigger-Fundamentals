@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+    background-color: black;
+    color: white;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 100px;
+    overflow: hidden;
+}
+
+h1 span{
+    display: inline-block;
+
+    /* since the movement of gsam y:abc , is not workable for inline element ,
+    so changing the display too block level */
+}

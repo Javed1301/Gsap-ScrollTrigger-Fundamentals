@@ -1,0 +1,269 @@
+@font-face {
+    font-family: japan;
+    src: url(./3856NeueMachina.woff2);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+section{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(177, 188, 185); */
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 60px;
+}
+
+.part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:60px;
+}
+
+nav h1{
+    font-size: 30px;
+    
+}
+nav h1 i{
+    rotate: 45deg;
+    display:inline-block;
+    font-size: 35px;
+    margin-right: 5px;
+}
+
+nav h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+nav button{
+    padding: 5px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: 550;
+    border: 1px solid black;
+    background-color: transparent;
+}
+
+.center{
+    /* background-color: red; */
+    height: 65%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:10px 60px
+}
+
+.center .part1{
+    /* background-color: lightblue; */
+    height: 100%;  
+    width: 44%; 
+}
+
+.center .part1 h1{
+    font-size: 70px;
+    font-family: japan;
+    /* background-color: red; */
+    line-height: 1.3;
+
+}
+
+.center .part1 p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.center .part1 button{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size:18px;
+    font-weight: 600;
+    border: none;
+}
+.center .part2{
+    /* background-color: rgb(189, 230, 173); */
+    height: 100%;  
+    width: 56%; 
+    position:relative;
+}
+
+.center .part2 img{
+    position: absolute;
+    right: 0;
+    height:90%
+}
+
+.section1 .bottom{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 60px;
+}
+
+.section1 .bottom img{
+    height:100px;
+    
+}
+
+.section2 .services{
+    /* background-color: red; */
+    padding: 20px 60px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap:30px
+}
+
+.section2 .services p{
+    width: 700px;
+    font-size: 20px;
+}
+.section2 .services h3{
+    /* width: 600px; */
+    font-size: 25px;
+    background-color: #B8FF6A;
+    padding:5px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.container{
+    height:80%;
+    width:100%;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:50px
+}
+
+.elem{
+       height: 270px;
+       width: 48%;
+       border:3px solid black;
+       border-radius: 30px;
+       /* background-color: red; */
+       flex-shrink: 0; 
+       box-shadow: 0px 10px 0px black;
+       padding: 40px;
+       display: flex;
+}
+
+.elem .part1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.elem .part1 h2{
+    width: 65%;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: 600;
+    background-color: #B8FF6A;
+    
+}
+.elem .part1 h4{
+    font-size: 19px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.elem .part1 h4 i{
+    display: inline-block;
+    rotate: 45deg;
+    font-size: 40px;
+}
+
+.elem .part2{
+    height: 100%;
+    width: 50%;
+}
+
+.elem .part2 img{
+    height:100%;
+}
+
+.elem-black{
+    height: 270px;
+       width: 48%;
+       border:3px solid black;
+       border-radius: 30px;
+       /* background-color: red; */
+       flex-shrink: 0; 
+       box-shadow: 0px 10px 0px black;
+       padding: 40px;
+       display: flex;
+       background-color: black;
+       color: white;
+}
+
+
+.elem-black .part1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.elem-black .part1 h2{
+    width: 65%;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: 600;
+    background-color:white;
+    color: black;
+    
+}
+.elem-black .part1 h4{
+    font-size: 19px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.elem-black .part1 h4 i{
+    display: inline-block;
+    rotate: 45deg;
+    font-size: 40px;
+}
+
+.elem-black .part2{
+    height: 100%;
+    width: 50%;
+}
+
+.elem-black .part2 img{
+    height:100%;
+}
